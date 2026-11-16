@@ -1,0 +1,117 @@
+{
+  "_help": {
+    "audio_mode": "What to do with a swear in the audio: 'mute' (silence), 'close_gap' (cut the word out and close the gap), or 'splice' (swap in a clean word the same actor says elsewhere in the game - experimental).",
+    "splice_fallback": "In splice mode, what to do when no good matching word is found: 'close_gap' or 'mute'.",
+    "splice_min_match": "How closely the stand-in word's voice must match (0-1). Higher = stricter, fewer splices.",
+    "splice_options": "For each swear, real words that can stand in for it. Only words the actors actually say in the game can be used.",
+    "captions": "true = also clean the subtitles to match. false = voice lines only.",
+    "test_mode": "true = subtitles show every removed word in *asterisks* where it was cut, so you can check what the mod changed. The audio is cleaned as normal. Set back to false and run INSTALL.bat again for normal play."
+  },
+  "audio_mode": "close_gap",
+  "splice_fallback": "close_gap",
+  "splice_min_match": 0.9,
+  "splice_options": {
+    "damn": [
+      "blast",
+      "curse"
+    ],
+    "damned": [
+      "cursed",
+      "blasted"
+    ],
+    "goddamn": [
+      "blasted",
+      "cursed"
+    ],
+    "goddamned": [
+      "blasted",
+      "cursed"
+    ],
+    "hell": [
+      "blazes"
+    ],
+    "fuck": [
+      "blast",
+      "curse"
+    ],
+    "fucking": [
+      "blasted",
+      "cursed"
+    ],
+    "fuckin": [
+      "blasted",
+      "cursed"
+    ],
+    "fucked": [
+      "finished",
+      "done"
+    ],
+    "shit": [
+      "rubbish",
+      "nonsense"
+    ],
+    "bullshit": [
+      "nonsense",
+      "rubbish"
+    ],
+    "shite": [
+      "rubbish",
+      "nonsense"
+    ],
+    "bastard": [
+      "scoundrel",
+      "villain",
+      "dog",
+      "rat",
+      "coward",
+      "devil",
+      "fool"
+    ],
+    "bastards": [
+      "scoundrels",
+      "villains",
+      "dogs",
+      "rats",
+      "cowards",
+      "devils",
+      "fools"
+    ],
+    "bitch": [
+      "wretch",
+      "witch"
+    ],
+    "prick": [
+      "fool",
+      "dog"
+    ],
+    "cunt": [
+      "wretch",
+      "dog"
+    ],
+    "ass": [
+      "fool"
+    ],
+    "arse": [
+      "fool"
+    ],
+    "asshole": [
+      "fool",
+      "scoundrel"
+    ],
+    "arsehole": [
+      "fool",
+      "scoundrel"
+    ],
+    "whore": [
+      "wench"
+    ],
+    "whores": [
+      "wenches"
+    ],
+    "strumpet": [
+      "wench"
+    ]
+  },
+  "captions": true,
+  "test_mode": false
+}

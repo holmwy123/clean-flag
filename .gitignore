@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+backup/
+output/
+game_folder.txt
+_to_delete/

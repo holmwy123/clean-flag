@@ -1,0 +1,87 @@
+{
+  "_help": "Each category can be switched on/off. Each entry: regex pattern (matched against whole words, case-insensitive) -> clean word shown in captions. Edit freely.",
+  "categories": {
+    "strong": {
+      "enabled": true,
+      "words": {
+        "fuck(ed|in|ing)": "blasted",
+        "fuck(s|er|ers)?": "blast",
+        "motherfuck(er|ers|ing)?": "scoundrel",
+        "bullshit": "bilge",
+        "bitch(es)?": "wretch",
+        "bastard(s)?": "scoundrel",
+        "cunt(s)?": "wretch",
+        "cock(s)?sucker(s)?": "scoundrel",
+        "prick(s)?": "fool",
+        "shit(s|ty|e|ting|ted|ter|ters|tier|tiest)?": "bilge"
+      }
+    },
+    "mild": {
+      "enabled": true,
+      "words": {
+        "goddamn(ed|it)?": "blasted",
+        "god-damned": "blasted",
+        "damn(ed|it)?": "darn",
+        "hell": "heck",
+        "ass(es)?": "fool",
+        "arse(s)?": "fool",
+        "asshole(s)?": "fool",
+        "arsehole(s)?": "fool",
+        "dammit": "darn it",
+        "damnit": "darn it",
+        "piss(ed|ing|es|er|ers)?": "bilge"
+      }
+    },
+    "british": {
+      "enabled": false,
+      "_note": "British-style swears (bloody, bugger, sod, bollocks). Mild to most American ears; turn on if you want them muted too.",
+      "words": {
+        "bloody": "blasted",
+        "bugger(s|ed)?": "blighter",
+        "sod(s|ding)?": "blighter",
+        "bollocks": "bilge"
+      }
+    },
+    "innuendo": {
+      "enabled": true,
+      "words": {
+        "whore(s)?": "wench",
+        "whorehouse(s)?": "tavern",
+        "slut(s)?": "wench",
+        "strumpet(s)?": "wench",
+        "harlot(s)?": "wench",
+        "tit(s)?": "chest",
+        "whoreson(s)?": "scallywag"
+      }
+    },
+    "religious": {
+      "enabled": false,
+      "_note": "Mutes EVERY use of these words, including sincere prayers and blessings. Most people want 'religious_oaths' instead.",
+      "words": {
+        "jesus": "blimey",
+        "christ": "blimey",
+        "god": "gods"
+      }
+    },
+    "religious_oaths": {
+      "enabled": true,
+      "_note": "Mutes God/Jesus/Christ/Lord only when used as an exclamation (oh God!, for God's sake). Sincere religious lines are kept.",
+      "words": {}
+    }
+  },
+  "never_filter": [
+    "hello",
+    "shell",
+    "assassin",
+    "assassins",
+    "class",
+    "pass",
+    "glass",
+    "mass",
+    "cockpit",
+    "peacock",
+    "dickens",
+    "scunthorpe",
+    "hellish"
+  ]
+}
